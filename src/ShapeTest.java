@@ -13,7 +13,7 @@ public class ShapeTest {
 
         Point point1 = new Point(1, 4);
         Point point2 = new Point(-1, 4);
-        shapes[3] = new Line2D(point1, point2);
+        shapes[4] = new Line2D(point1, point2);
 
         double tmp = 0;
         for (int i = 0; i < shapes.length; i++) {

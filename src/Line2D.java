@@ -1,4 +1,4 @@
-public class Line2D {
+public class Line2D extends Shape2D {
     private Point point1;
     private Point point2;
 

@@ -1,4 +1,4 @@
-public class Rectangle extends Shape2D {
+public class Rectangle extends GeometricShape {
     private double sideA;
     private double sideB;
 

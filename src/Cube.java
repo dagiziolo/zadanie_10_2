@@ -12,4 +12,10 @@ public class Cube extends Shape3D {
     public void setEdge(double edge) {
         this.edge = edge;
     }
+
+    @Override
+    public String toString() {
+        return "Sześcian o krawędzi " + getEdge() ;
+
+    }
 }

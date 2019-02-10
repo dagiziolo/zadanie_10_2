@@ -12,4 +12,9 @@ public class Ball extends Shape3D {
     public void setRadiusBall(double radiusBall) {
         this.radiusBall = radiusBall;
     }
+
+    @Override
+    public String toString() {
+        return "Kula o promieniu " + (getRadiusBall() );
+    }
 }

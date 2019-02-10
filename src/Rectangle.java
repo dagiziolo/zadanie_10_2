@@ -22,4 +22,9 @@ public class Rectangle extends GeometricShape {
     public void setSideB(double sideB) {
         this.sideB = sideB;
     }
+
+    @Override
+    public String toString() {
+        return "Prostokąt o długościach boków " + getSideA() + " i " + getSideB() ;
+    }
 }

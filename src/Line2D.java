@@ -22,4 +22,10 @@ public class Line2D extends Shape2D {
     public void setPoint2(Point point2) {
         this.point2 = point2;
     }
+
+    @Override
+    public String toString() {
+        return "Odcinek wyznaczony przez współrzędne [" + point1.getX() + " , " + point1.getY() + "] [" +
+        point2.getX() + " , " + point2.getY();
+    }
 }
